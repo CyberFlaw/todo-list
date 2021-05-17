@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+      integrity="sha256-KzZiKy0DWYsnwMF+X1DvQngQ2/FxF7MF3Ff72XcpuPs="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>Todo list</h1></header>
+    <div class="input">
+      <input type="text" id="input" placeholder="Enter your tasks" />
+      <button type="submit" id="button">
+        <i class="fas fa-plus-circle"></i>
+      </button>
+      <button type="submit" id="reset">
+        <i class="fa fa-trash" aria-hidden="true"></i>
+      </button>
+      <!-- ✨ -->
+    </div>
+    <div id="container"></div>
+    <script src="./app.js"></script>
+  </body>
+</html>
